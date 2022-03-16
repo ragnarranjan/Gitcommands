@@ -1,0 +1,38 @@
+﻿git init
+git add .
+git commit -m "first commit"--------if u want to see what changes done then ---    git log
+touch .gitignore ----------to create gitignore file
+copy name of file to which u want to ignore after that paste that name in .gitignore file. Now these file will not be tracked. If u want to ignore many file of same extension like .log extension then give *.log extension in .ignore file and save it and all .log file will be ignored.
+
+file name with  .-- (.-dot extension)  will not be seen by ls  for this apply ls -a. 
+
+git diff ----this command verify stagging area with working directory
+git remote add origin git@github.com:ragnarranjan/E-shop
+git push -u origin master
+
+git comit -a -m "here all tracked file will be commited and untracked file will be not commited"
+
+
+git remote add origin git@github.com:gwef/demo-repo2.git ------this is the url address for the place where on that repo we r adding our local code of system to given repoaddress.Here wwe r proving bridge ya conneection only if u want to push code given under command
+
+git push origin master ----we r pushing our code to master branch
+
+
+git checkout -b newbranch1
+
+to goto new branch --git checkout abcxz
+
+
+update something in this newbranch1 
+git add .
+git commit -m "new update"
+git status
+git push origin master newbranch1--------pushed to master 
+	((--then go to master ---git checkout master--then git diff <branchname> --to check changes))
+
+now code is on git we have to pull it to our system master for that --
+git  pull origin master
+
+
+
+
